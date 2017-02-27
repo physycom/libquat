@@ -21,5 +21,4 @@ author: "Fabbri, Servizi, Sinigardi"
 ## Installation
 **make** and a **C++11** compatible compiler are required. Clone the repo and type ``make``, it should be enough in most cases!   
 There's also a **VS2015** solution avalaible.   
-Contains [jsoncons](https://github.com/danielaparker/jsoncons) as a git submodule.   
 
