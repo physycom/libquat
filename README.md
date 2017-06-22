@@ -20,6 +20,9 @@ This library has been written in order to handle rigid body 6D representations f
 
 
 ## Installation
-**make** and a **C++11** compatible compiler are required. Clone the repo and type ``make``, it should be enough in most cases!   
-There's also a **VS2015** solution avalaible.   
+**CMake** and a **C++11** compatible compiler are required. To build the executable, clone the repo and then type  
+```
+mkdir build ; cd build ; cmake .. ; cmake --build . --target install
+```
+With CMake you can also deploy projects for the most common IDEs.  
 
