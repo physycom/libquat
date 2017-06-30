@@ -10,7 +10,7 @@
 #include <boost/utility.hpp>
 #include <boost/algorithm/string.hpp>
 
-#include "quaternioni.h"
+#include "quat.h"
 
 #define D_TO_R M_PI / 180.
 #define R_TO_D 180. / M_PI

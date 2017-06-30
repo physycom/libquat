@@ -10,7 +10,7 @@
 #include <boost/utility.hpp>
 #include <boost/algorithm/string.hpp>
 
-#include "quaternioni.h"
+#include "quat.h"
 
 using namespace std;
 

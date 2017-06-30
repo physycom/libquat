@@ -1,5 +1,6 @@
 cmake_minimum_required (VERSION 3.1)
 project (quat)
+set (CMAKE_CXX_STANDARD 11)
 
 if(MSVC)
     add_definitions(-D_SCL_SECURE_NO_WARNINGS)
@@ -7,7 +8,9 @@ if(MSVC)
     add_definitions(-D_USE_MATH_DEFINES)
 endif()
 
-include_directories(${CMAKE_SOURCE_DIR}/..)
+find_package(Boost REQUIRED)
+include_directories(${Boost_INCLUDE_DIRS}) 
+include_directories(${CMAKE_SOURCE_DIR})
 
 add_executable (1-2-rotazioni "${CMAKE_SOURCE_DIR}/test/1-2-rotazioni")
 add_executable (3-inertial2d "${CMAKE_SOURCE_DIR}/test/3-inertial2d")

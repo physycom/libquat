@@ -8,7 +8,7 @@
 #include <vector>
 #include <utility>
 
-#include "quaternioni.h"
+#include "quat.h"
 
 // la prima classe a essere definita (completata) è la class Quaternione
 void Quaternione::copiatore(const Quaternione& q) {
