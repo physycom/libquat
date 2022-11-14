@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "libquat",
+  "version": "1.0.0",
+  "homepage": "https://github.com/physycom/libquat",
+  "description": "Library that handles rigid body 6D representations for dynamic event reconstruction",
+  "dependencies": [
+  ],
+  "features": {
+    "test": {
+      "description": "Build tests",
+      "dependencies": [
+        "boost-utility",
+        "boost-algorithm"
+      ]
+    }
+  }
+}

@@ -1,6 +1,31 @@
-#ifndef _GNU_SOURCE
-#define _GNU_SOURCE
-#endif
+/*
+libquat
+https://github.com/physycom/libquat
+
+Licensed under the MIT License <http://opensource.org/licenses/MIT>.
+SPDX-License-Identifier: MIT
+
+Copyright (c) 2016-2019 Alessandro Fabbri, Graziano Servizi, Stefano Sinigardi
+Copyright (c) 2019-2022 Alessandro Fabbri, Stefano Sinigardi (stesinigardi@hotmail.com)
+
+Permission is hereby  granted, free of charge, to any  person obtaining a copy
+of this software and associated  documentation files (the "Software"), to deal
+in the Software  without restriction, including without  limitation the rights
+to  use, copy,  modify, merge,  publish, distribute,  sublicense, and/or  sell
+copies  of  the Software,  and  to  permit persons  to  whom  the Software  is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE  IS PROVIDED "AS  IS", WITHOUT WARRANTY  OF ANY KIND,  EXPRESS OR
+IMPLIED,  INCLUDING BUT  NOT  LIMITED TO  THE  WARRANTIES OF  MERCHANTABILITY,
+FITNESS FOR  A PARTICULAR PURPOSE AND  NONINFRINGEMENT. IN NO EVENT  SHALL THE
+AUTHORS  OR COPYRIGHT  HOLDERS  BE  LIABLE FOR  ANY  CLAIM,  DAMAGES OR  OTHER
+LIABILITY, WHETHER IN AN ACTION OF  CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE  OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/ \
 
 #include <iostream>
 #include <fstream>
@@ -198,7 +223,7 @@ int main() {
   }
 
 
-  // ****************************************  SAVING TO FILE ******************************************* 
+  // ****************************************  SAVING TO FILE *******************************************
   char all_data_name[30]; sprintf(all_data_name, "data2d/all_data.txt");
   FILE * out_data = fopen(all_data_name, "w");
   fprintf(out_data, "%10s %10s %10s %10s %10s %10s %10s %10s %10s %10s %10s\n", "1 - Index", "2 -  t",

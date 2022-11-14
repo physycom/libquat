@@ -16,13 +16,14 @@ author: "Fabbri, Servizi, Sinigardi"
 </a>
 
 ### Purpose
+
 This library has been written in order to handle rigid body 6D representations for dynamic event reconstruction. Its use is as a submodule in projects that requires the library.
 
 
 ## Installation
-**CMake** and a **C++11** compatible compiler are required. To build the executable, clone the repo and then type  
-```
-mkdir build ; cd build ; cmake .. ; cmake --build . --target install
-```
-With CMake you can also deploy projects for the most common IDEs.  
 
+**CMake**, **Powershell** and a **C++11** compatible compiler are required. To build the executable, clone the repo and then type  
+
+```
+./ci/build.ps1
+```
