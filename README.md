@@ -4,7 +4,11 @@ title:  "libquat"
 author: "Fabbri, Servizi, Sinigardi"
 ---
 
-[![UniBO DiFA Logo](https://cdn.rawgit.com/physycom/templates/697b327d/logo_unibo.png)](http://www.physycom.unibo.it)
+<a href="http://www.physycom.unibo.it">
+<div class="image">
+<img src="https://cdn.rawgit.com/physycom/templates/697b327d/logo_unibo.png" width="90" height="90" alt="© Physics of Complex Systems Laboratory - Physics and Astronomy Department - University of Bologna">
+</div>
+</a>
 
 [![Physycom Continuous Integration](https://github.com/physycom/libquat/actions/workflows/ccpp.yml/badge.svg)](https://github.com/physycom/libquat/actions/workflows/ccpp.yml)
 
