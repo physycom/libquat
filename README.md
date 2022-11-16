@@ -18,8 +18,8 @@ This library has been written in order to handle rigid body 6D representations f
 
 ## Installation
 
-**CMake**, **Powershell** and a **C++11** compatible compiler are required. To build the executable, clone the repo and then type  
+**CMake**, **Powershell** and a **C++11** compatible compiler are required. To build the executable, clone the repo and then type
 
 ```pwsh
-./ci/build.ps1
+./ci/build.ps1 -UseVCPKG
 ```
