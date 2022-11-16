@@ -50,7 +50,6 @@ install(TARGETS quat EXPORT QuatTargets
 
 if(ENABLE_TEST)
   find_package(Boost REQUIRED)
-  include_directories(${Boost_INCLUDE_DIRS})
   add_executable (1-2-rotazioni "${CMAKE_CURRENT_LIST_DIR}/test/1-2-rotazioni.cpp")
   add_executable (3-inertial2d "${CMAKE_CURRENT_LIST_DIR}/test/3-inertial2d.cpp")
   add_executable (4-inertial3d "${CMAKE_CURRENT_LIST_DIR}/test/4-inertial3d.cpp")
